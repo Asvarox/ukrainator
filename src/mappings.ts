@@ -46,7 +46,6 @@ export const mappings = [
         { from: 'ó', to: 'у', revert: ['jу'] },
         { from: 'y', to: 'и', revert: [] }
     ],
-    [{ from: 's', to: 'с', revert: ['сz'] }],
     [
         { from: 'r', to: 'р', revert: ['рz'] },
         { from: 'p', to: 'п', revert: [] }
@@ -59,8 +58,13 @@ export const mappings = [
     [{ from: 'b', to: 'б', revert: [] }],
     [{ from: 'h', to: 'г', revert: ['cг'] }],
     [{ from: 'g', to: 'ґ', revert: [] }],
-    [{ from: 'l', to: 'Ль', revert: [] },
-        { from: 'ł', to: 'л', revert: [] }],
-    [{ from: 'c', to: 'ц', revert: ['цh', 'цz'] }],
+    [
+        { from: 'l', to: 'Ль', revert: [] },
+        { from: 'ł', to: 'л', revert: [] },
+    ],
+    [
+        { from: 'c', to: 'ц', revert: ['цh', 'цz'] },
+        { from: 's', to: 'с', revert: ['сz'] },
+    ],
     [{ from: 'f', to: 'ф', revert: [] }],
 ]
