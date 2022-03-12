@@ -82,6 +82,6 @@ const toTransformNote = (transforms: [string, string][]) => {
 
 
 paragraphs.forEach(paragraph => {
-    if (paragraph.transforms.length) console.log(`[${toTransformNote(paragraph.transforms)}]`);
-    console.log(paragraph.text + '.');
+    if (paragraph.transforms.length) console.log(`\n[${toTransformNote(paragraph.transforms)}]\n`);
+    console.log(paragraph.text.trim() + '.');
 })

@@ -30,7 +30,7 @@ export const mappings = [
     [{ from: 'ź', to: 'зь', revert: [] }],
     [{ from: 'ś', to: 'сь', revert: [] }],
     [{ from: 'ć', to: 'ць', revert: [] }],
-    [{ from: 'ą', to: 'аь', revert: [] }],
+    [{ from: 'ą', to: 'аь', revert: ['jаь'] }],
     [{ from: 'ę', to: 'еь', revert: ['jеь', 'iеь'] }],
     [
         { from: 'a', to: 'а', revert: ['jа'] },
@@ -55,7 +55,7 @@ export const mappings = [
     [{ from: 'z', to: 'з', revert: ['sз', 'cз', 'rз'] }],
     [{ from: 'n', to: 'н', revert: [] }],
     [{ from: 'd', to: 'д', revert: [] }],
-    [{ from: 'j', to: 'й', revert: ['йa', 'йą', 'йu', 'йe', 'йę', 'йi'] /* 2 */ }],
+    [{ from: 'j', to: 'й', revert: ['йa', 'йą', 'йu', 'йe', 'йę', 'йi'] }],
     [{ from: 'b', to: 'б', revert: [] }],
     [{ from: 'h', to: 'г', revert: ['cг'] }],
     [{ from: 'g', to: 'ґ', revert: [] }],
