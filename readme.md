@@ -9,5 +9,8 @@ Script that gradually changes Polish texts to phonetic counterparts from Ukraini
 2. Run `yarn` if it's the first run.
 3. Run `yarn ts-node src/translate.ts`
 
+## Example output
+See [example-output.md](./example-output.md) file.
+
 ## Limitations:
 1. ą, ę are wrongly translated to аь/еь.
