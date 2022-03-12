@@ -59,7 +59,7 @@ export const mappings = [
     [{ from: 'h', to: 'г', revert: ['cг'] }],
     [{ from: 'g', to: 'ґ', revert: [] }],
     [
-        { from: 'l', to: 'Ль', revert: [] },
+        { from: 'l', to: 'ль', revert: [] },
         { from: 'ł', to: 'л', revert: [] },
     ],
     [
